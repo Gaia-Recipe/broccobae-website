@@ -1,0 +1,1233 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    height: 4561px;
+    align-items: flex-start;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.home-page .frame {
+    display: flex;
+    flex-direction: column;
+    height: 4561px;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: #f7fcf9;
+}
+
+.home-page .home-screen {
+    display: flex;
+    flex-direction: column;
+    height: 4561px;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.home-page .header-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px 0px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.home-page .header {
+    display: flex;
+    width: 1280px;
+    align-items: center;
+    gap: 5px;
+    padding: 12px 40px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: transparent;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-color: #e5e8ea;
+}
+
+.home-page .icon {
+    position: relative;
+    width: 32px;
+    height: 27px;
+    object-fit: cover;
+}
+
+.home-page .logo-name {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    padding: 5px 0px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.home-page .broccobae {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.home-page .text-wrapper {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #09713d;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 23px;
+    white-space: nowrap;
+}
+
+.home-page .menu-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 32px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.home-page .div {
+    display: flex;
+    width: 525px;
+    align-items: center;
+    gap: 36px;
+    position: relative;
+}
+
+.home-page .div-wrapper {
+    position: relative;
+    width: 42px;
+    height: 21px;
+}
+
+.home-page .text-wrapper-2 {
+    position: absolute;
+    width: 42px;
+    top: -1px;
+    left: 0;
+    font-family: "Epilogue-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #0c1c14;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+}
+
+.home-page .recipes {
+    position: relative;
+    width: 57px;
+    height: 21px;
+}
+
+.home-page .text-wrapper-3 {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Epilogue-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #0c1c14;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.home-page .meal-plans {
+    position: relative;
+    width: 77px;
+    height: 19px;
+}
+
+.home-page .text-wrapper-4 {
+    position: absolute;
+    width: 77px;
+    top: -1px;
+    left: 0;
+    font-family: "Epilogue-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #0c1c14;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.home-page .cuisines {
+    position: relative;
+    width: 61px;
+    height: 19px;
+}
+
+.home-page .text-wrapper-5 {
+    position: absolute;
+    width: 61px;
+    top: -1px;
+    left: 0;
+    font-family: "Epilogue-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #0c1c14;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.home-page .community {
+    position: relative;
+    width: 82px;
+    height: 19px;
+}
+
+.home-page .text-wrapper-6 {
+    position: absolute;
+    width: 82px;
+    top: -1px;
+    left: 0;
+    font-family: "Epilogue-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #0c1c14;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.home-page .main {
+    display: flex;
+    height: 3924px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px 160px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.home-page .body {
+    display: flex;
+    flex-direction: column;
+    max-width: 960px;
+    width: 960px;
+    height: 3904px;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+    margin-bottom: -20.00px;
+}
+
+.home-page .land-screen {
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    height: 586px;
+    align-items: flex-start;
+    position: relative;
+}
+
+.home-page .depth-frame {
+    flex-direction: column;
+    height: 586px;
+    align-items: flex-start;
+    padding: 16px;
+    align-self: stretch;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.home-page .depth-frame-2 {
+    width: 925px;
+    height: 570px;
+    margin-bottom: -16.00px;
+    overflow: hidden;
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+    );
+    position: relative;
+    border-radius: 12px;
+}
+
+.home-page .depth-frame-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+    top: 171px;
+    left: 96px;
+}
+
+.home-page .depth-frame-4 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.home-page .text-wrapper-7 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: -2.00px;
+    line-height: 60px;
+    white-space: nowrap;
+}
+
+.home-page .depth-frame-5 {
+    width: 498px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.home-page .p {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Epilogue-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.home-page .depth-frame-wrapper {
+    display: inline-flex;
+    min-width: 84px;
+    max-width: 480px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    position: absolute;
+    top: 301px;
+    left: 96px;
+    background-color: #09713d;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.home-page .depth-frame-6 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.home-page .text-wrapper-8 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #f7fcf9;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.home-page .label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 20px 16px 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.home-page .text-wrapper-9 {
+    position: relative;
+    align-self: stretch;
+    height: 41px;
+    margin-top: -1.00px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #111614;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+.home-page .text-wrapper-10 {
+    position: relative;
+    align-self: stretch;
+    height: 112px;
+    font-family: "Epilogue-Regular", Helvetica;
+    font-weight: 400;
+    color: #111614;
+    font-size: 16px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.home-page .text-wrapper-11 {
+    position: relative;
+    align-self: stretch;
+    height: 40px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #0c1c11;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+.home-page .feature-recipes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.home-page .depth-frame-7 {
+    width: 959px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 16px;
+    display: flex;
+    position: relative;
+}
+
+.home-page .depth-frame-8 {
+    display: flex;
+    flex-direction: column;
+    min-width: 240px;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    border-radius: 8px;
+}
+
+.home-page .depth-frame-9 {
+    height: 385px;
+    border-radius: 12px;
+    background-image: url(./img/depth-7-frame-0-7.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.home-page .depth-frame-10 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.home-page .text-wrapper-12 {
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #0c1c11;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    letter-spacing: 0;
+}
+
+.home-page .text-wrapper-13 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Epilogue-Regular", Helvetica;
+    font-weight: 400;
+    color: #09713d;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+}
+
+.home-page .depth-frame-11 {
+    height: 385px;
+    border-radius: 12px;
+    background-image: url(./img/depth-7-frame-0-4.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.home-page .vector-wrapper {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 385px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-image: url(./img/image.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.home-page .vector {
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    top: 166px;
+    left: 221px;
+}
+
+.home-page .label-2 {
+    display: flex;
+    flex-direction: column;
+    height: 373px;
+    align-items: flex-start;
+    padding: 20px 16px 75px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.home-page .depth-frame-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 16px 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.home-page .text-wrapper-14 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #111614;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+.home-page .depth-frame-13 {
+    flex-direction: column;
+    height: 332px;
+    padding: 16px;
+    margin-bottom: -111.00px;
+    margin-top: -3px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.home-page .depth-frame-14 {
+    align-items: flex-start;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 12px;
+    display: flex;
+    position: relative;
+}
+
+.home-page .depth-frame-15 {
+    flex: 1;
+    flex-grow: 1;
+    height: 256px;
+    background-image: url(./img/depth-6-frame-0.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    border-radius: 12px;
+}
+
+.home-page .depth-frame-16 {
+    display: flex;
+    flex-direction: column;
+    min-width: 288px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4px;
+    padding: 16px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.home-page .text-wrapper-15 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #111614;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 23px;
+}
+
+.home-page .depth-frame-17 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex: 0 0 auto;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.home-page .depth-frame-18 {
+    width: 344px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.home-page .text-wrapper-16 {
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Epilogue-Regular", Helvetica;
+    font-weight: 400;
+    color: #09713d;
+    letter-spacing: 0;
+}
+
+.home-page .depth-frame-19 {
+    display: inline-flex;
+    min-width: 84px;
+    flex: 0 0 auto;
+    margin-right: -29.00px;
+    max-width: 480px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 16px;
+    position: relative;
+    background-color: #09713d;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.home-page .text-wrapper-17 {
+    font-family: "Epilogue-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 21px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    letter-spacing: 0;
+}
+
+.home-page .depth-frame-20 {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.home-page .depth-frame-21 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-right: -68.00px;
+}
+
+.home-page .depth-frame-22 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 320px;
+    border-radius: 12px;
+    background-image: url(./img/depth-7-frame-0-5.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.home-page .text-wrapper-18 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Epilogue-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #111614;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.home-page .depth-frame-23 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 320px;
+    border-radius: 12px;
+    background-image: url(./img/depth-7-frame-0.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.home-page .depth-frame-24 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 320px;
+    border-radius: 12px;
+    background-image: url(./img/depth-7-frame-0-6.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.home-page .img-wrapper {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 320px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-image: url(./img/depth-7-frame-0-10.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.home-page .img {
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    top: 142px;
+    left: 106px;
+}
+
+.home-page .depth-frame-25 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 320px;
+    border-radius: 12px;
+    background-image: url(./img/depth-7-frame-0-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.home-page .depth-frame-26 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 320px;
+    border-radius: 12px;
+    background-image: url(./img/depth-7-frame-0-9.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.home-page .depth-frame-27 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 320px;
+    border-radius: 12px;
+    background-image: url(./img/depth-7-frame-0-8.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.home-page .depth-frame-28 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 320px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-image: url(./img/depth-7-frame-0-3.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.home-page .vector-2 {
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    top: 120px;
+    left: 106px;
+}
+
+.home-page .depth-frame-29 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.home-page .depth-frame-30 {
+    align-items: flex-start;
+    justify-content: space-between;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 12px;
+    display: flex;
+    position: relative;
+}
+
+.home-page .depth-frame-31 {
+    display: flex;
+    flex-direction: column;
+    width: 608px;
+    height: 171px;
+    align-items: flex-start;
+    gap: 4px;
+    position: relative;
+}
+
+.home-page .text-wrapper-19 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Epilogue-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #09713d;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+}
+
+.home-page .text-wrapper-20 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #111614;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.home-page .depth-frame-32 {
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    height: 171px;
+    border-radius: 12px;
+    background-image: url(./img/depth-6-frame-1-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.home-page .depth-frame-33 {
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    height: 171px;
+    border-radius: 12px;
+    background-image: url(./img/depth-6-frame-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.home-page .depth-frame-34 {
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    height: 171px;
+    border-radius: 12px;
+    background-image: url(./img/depth-6-frame-1-3.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.home-page .depth-frame-35 {
+    height: 286px;
+    align-items: flex-start;
+    align-self: stretch;
+    width: 100%;
+    border-radius: 12px;
+    display: flex;
+    position: relative;
+}
+
+.home-page .depth-frame-36 {
+    flex: 1;
+    flex-grow: 1;
+    height: 286px;
+    background-image: url(./img/depth-6-frame-0-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    border-radius: 12px;
+}
+
+.home-page .depth-frame-37 {
+    display: flex;
+    width: 115px;
+    margin-right: -27.00px;
+    max-width: 480px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 16px;
+    position: relative;
+    background-color: #09713d;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.home-page .depth-frame-38 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: -4.50px;
+    margin-right: -4.50px;
+}
+
+.home-page .menu-item-2 {
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    height: 21px;
+    margin-right: -1.00px;
+}
+
+.home-page .footer {
+    display: flex;
+    width: 1280px;
+    height: 480px;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    margin-top: -660px;
+    background-color: #e8f2ed;
+}
+
+.home-page .footer-screen {
+    display: flex;
+    flex-direction: column;
+    max-width: 960px;
+    align-items: flex-start;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    margin-bottom: -36.00px;
+}
+
+.home-page .company-policy {
+    display: flex;
+    flex-direction: column;
+    height: 516px;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 40px 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.home-page .policy {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.home-page .depth-frame-39 {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    align-items: center;
+    position: relative;
+}
+
+.home-page .text-wrapper-21 {
+    position: absolute;
+    width: 56px;
+    top: -1px;
+    left: 0;
+    font-family: "Epilogue-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #0c1c14;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+}
+
+.home-page .text-wrapper-22 {
+    position: absolute;
+    width: 120px;
+    top: -1px;
+    left: 0;
+    font-family: "Epilogue-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #0c1c14;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+}
+
+.home-page .text-wrapper-23 {
+    width: 63px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Epilogue-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #0c1c14;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+}
+
+.home-page .text-wrapper-24 {
+    width: 60px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Epilogue-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #0c1c14;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+}
+
+.home-page .text-wrapper-25 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Epilogue-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #0c1c14;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.home-page .text-wrapper-26 {
+    position: absolute;
+    width: 53px;
+    top: -1px;
+    left: 0;
+    font-family: "Epilogue-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #0c1c14;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+}
+
+.home-page .text-wrapper-27 {
+    position: relative;
+    width: 188px;
+    margin-top: -1.00px;
+    margin-left: -14.00px;
+    margin-right: -14.00px;
+    font-family: "Epilogue-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #0c1c14;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.home-page .text {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Epilogue-Medium", Helvetica;
+    font-weight: 500;
+    color: #0c1c14;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.home-page .depth-frame-40 {
+    position: relative;
+    width: 160px;
+    height: 24px;
+}
+
+.home-page .policy-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.home-page .websites {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.home-page .depth-frame-41 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.home-page .depth-frame-42 {
+    position: relative;
+    flex: 1;
+    width: 24px;
+    flex-grow: 1;
+}
+
+.home-page .vector-3 {
+    position: absolute;
+    width: 21px;
+    height: 19px;
+    top: 3px;
+    left: 3px;
+}
+
+.home-page .vector-4 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    left: 2px;
+}
+
+.home-page .credits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.home-page .thank-you-for {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Epilogue-Medium", Helvetica;
+    font-weight: 500;
+    color: #0c1c14;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.home-page .text-wrapper-28 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Epilogue-Medium", Helvetica;
+    font-weight: 500;
+    color: #0c1c14;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.home-page .depth-frame-43 {
+    position: relative;
+    width: 160px;
+    height: 24px;
+    margin-bottom: -20.00px;
+}
