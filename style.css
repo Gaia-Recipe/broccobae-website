@@ -1,0 +1,753 @@
+import React from "react";
+import styled from "styled-components";
+
+const StyledAbout01span = styled.span`
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+`;
+
+const StyledPrivatepolicy01span = styled.span`
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+`;
+
+const StyledTermsofservice01span = styled.span`
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+`;
+
+const StyledContact01span = styled.span`
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+`;
+
+const StyledMission01span = styled.span`
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+`;
+
+const StyledHome01span = styled.span`
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+`;
+
+const Styled817043124032span = styled.span`
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledValues01span = styled.span`
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+`;
+
+const StyledRecipes01span = styled.span`
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+`;
+
+const StyledBroccobaegmailcomspan = styled.span`
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledStory01span = styled.span`
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+`;
+
+const StyledMealplans01span = styled.span`
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+`;
+
+const StyledSaitamajapanspan = styled.span`
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledTextspan = styled.span`
+  color: #0D1C14;
+  font-size: 16px;
+  font-family: Epilogue;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledCuisines01span = styled.span`
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+`;
+
+const StyledDepth6Frame304 = styled.div`
+  width: 160px;
+  height: 24px;
+  min-width: 160px;
+`;
+
+const StyledCommunity01span = styled.span`
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+`;
+
+const StyledVector0 = styled.div`
+  width: 24px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #0D1C14;
+  outline: 1px black solid;
+  outline-offset: -0.50px;
+`;
+
+const StyledDepth9Frame0 = styled.div`
+  left: undefined;
+  top: undefined;
+  position: absolute;
+`;
+
+const StyledVector001 = styled.div`
+  width: 24px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #0D1C14;
+  outline: 1px black solid;
+  outline-offset: -0.50px;
+`;
+
+const StyledDepth9Frame001 = styled.div`
+  left: undefined;
+  top: undefined;
+  position: absolute;
+`;
+
+const StyledVector002 = styled.div`
+  width: 24px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #0D1C14;
+  outline: 1px black solid;
+  outline-offset: -0.50px;
+`;
+
+const StyledDepth9Frame002 = styled.div`
+  left: undefined;
+  top: undefined;
+  position: absolute;
+`;
+
+const StyledThankyouforvisitingoursitegaiarecipeinccomspan = styled.span`
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const Styled2025broccobaecomallrightsreservedspan = styled.span`
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledDepth6Frame5 = styled.div`
+  width: 160px;
+  height: 24px;
+  min-width: 160px;
+`;
+
+const StyledAbout = styled.div`
+  width: 42px;
+  height: 21px;
+  position: relative;
+`;
+
+const StyledPrivatePolicy = styled.div`
+  width: 42px;
+  height: 21px;
+  position: relative;
+`;
+
+const StyledTermsofService = styled.div`
+  width: 42px;
+  height: 21px;
+  position: relative;
+`;
+
+const StyledContact = styled.div`
+  width: 42px;
+  height: 21px;
+  position: relative;
+`;
+
+const StyledMission = styled.div`
+  width: 42px;
+  height: 21px;
+  position: relative;
+`;
+
+const StyledHome = styled.div`
+  width: 42px;
+  height: 21px;
+  position: relative;
+`;
+
+const StyledDepth6Frame301 = styled.div`
+  width: 160px;
+  min-width: 160px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledValues = styled.div`
+  width: 42px;
+  height: 21px;
+  position: relative;
+`;
+
+const StyledRecipes = styled.div`
+  width: 57px;
+  height: 21px;
+  position: relative;
+`;
+
+const StyledDepth6Frame302 = styled.div`
+  width: 160px;
+  min-width: 160px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledStory = styled.div`
+  width: 42px;
+  height: 21px;
+  position: relative;
+`;
+
+const StyledMealPlans = styled.div`
+  width: 77px;
+  height: 19px;
+  position: relative;
+`;
+
+const StyledDepth6Frame303 = styled.div`
+  width: 160px;
+  min-width: 160px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledDepth6Frame004 = styled.div`
+  width: 160px;
+  min-width: 160px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledCuisines = styled.div`
+  width: 61px;
+  height: 19px;
+  position: relative;
+`;
+
+const StyledCommunity = styled.div`
+  width: 82px;
+  height: 19px;
+  position: relative;
+`;
+
+const StyledCredits = styled.div`
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledDepth8Frame0 = styled.div`
+  width: 24px;
+  flex: 1 1 0;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledDepth8Frame001 = styled.div`
+  width: 24px;
+  flex: 1 1 0;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledDepth8Frame002 = styled.div`
+  width: 24px;
+  flex: 1 1 0;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledDepth6Frame0 = styled.div`
+  width: 160px;
+  min-width: 160px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledDepth6Frame1 = styled.div`
+  width: 160px;
+  min-width: 160px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledDepth6Frame2 = styled.div`
+  width: 160px;
+  min-width: 160px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledDepth6Frame3 = styled.div`
+  width: 160px;
+  min-width: 160px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledDepth6Frame001 = styled.div`
+  width: 160px;
+  min-width: 160px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledDepth6Frame201 = styled.div`
+  width: 160px;
+  min-width: 160px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledDepth6Frame002 = styled.div`
+  width: 160px;
+  min-width: 160px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledDepth6Frame202 = styled.div`
+  width: 160px;
+  min-width: 160px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledDepth6Frame003 = styled.div`
+  width: 160px;
+  min-width: 160px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledDepth6Frame203 = styled.div`
+  width: 160px;
+  min-width: 160px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledDepth6Frame204 = styled.div`
+  width: 160px;
+  min-width: 160px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledDepth6Frame205 = styled.div`
+  width: 160px;
+  min-width: 160px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledDepth7Frame0 = styled.div`
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledDepth7Frame001 = styled.div`
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledDepth7Frame002 = styled.div`
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledPolicy = styled.div`
+  align-self: stretch;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: center;
+`;
+
+const StyledPolicy01 = styled.div`
+  align-self: stretch;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: center;
+`;
+
+const StyledPolicy02 = styled.div`
+  align-self: stretch;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: center;
+`;
+
+const StyledPolicy03 = styled.div`
+  align-self: stretch;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: center;
+`;
+
+const StyledPolicy04 = styled.div`
+  align-self: stretch;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: center;
+`;
+
+const StyledPolicy05 = styled.div`
+  align-self: stretch;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: center;
+`;
+
+const StyledDepth6Frame005 = styled.div`
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledDepth6Frame101 = styled.div`
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledDepth6Frame206 = styled.div`
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledWebsites = styled.div`
+  align-self: stretch;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+`;
+
+const StyledCompanypolicy = styled.div`
+  align-self: stretch;
+  height: 516px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 25px;
+  display: flex;
+`;
+
+const StyledFooterscreen = styled.div`
+  flex: 1 1 0;
+  max-width: 960px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledFooter = styled.div`
+  width: 1280px;
+  height: 480px;
+  background: #E8F2ED;
+  justify-content: center;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+export const Footer = () => {
+  return (
+    <StyledFooter>
+      <StyledFooterscreen>
+        <StyledCompanypolicy>
+          <StyledPolicy>
+            <StyledDepth6Frame0>
+              <StyledAbout>
+                <StyledAbout01>About</StyledAbout01>
+              </StyledAbout>
+            </StyledDepth6Frame0>
+            <StyledDepth6Frame1>
+              <StyledPrivatePolicy>
+                <StyledPrivatePolicy01>Private Policy</StyledPrivatePolicy01>
+              </StyledPrivatePolicy>
+            </StyledDepth6Frame1>
+            <StyledDepth6Frame2>
+              <StyledTermsofService>
+                <StyledTermsofService01>Terms of Service</StyledTermsofService01>
+              </StyledTermsofService>
+            </StyledDepth6Frame2>
+            <StyledDepth6Frame3>
+              <StyledContact>
+                <StyledContact01>Contact</StyledContact01>
+              </StyledContact>
+            </StyledDepth6Frame3>
+          </StyledPolicy>
+          <StyledPolicy01>
+            <StyledDepth6Frame001>
+              <StyledMission>
+                <StyledMission01>Mission</StyledMission01>
+              </StyledMission>
+            </StyledDepth6Frame001>
+            <StyledDepth6Frame201>
+              <StyledHome>
+                <StyledHome01>Home</StyledHome01>
+              </StyledHome>
+            </StyledDepth6Frame201>
+            <StyledDepth6Frame301>
+              <Styled817043124032>+8170-4312-4032</Styled817043124032>
+            </StyledDepth6Frame301>
+          </StyledPolicy01>
+          <StyledPolicy02>
+            <StyledDepth6Frame002>
+              <StyledValues>
+                <StyledValues01>Values</StyledValues01>
+              </StyledValues>
+            </StyledDepth6Frame002>
+            <StyledDepth6Frame202>
+              <StyledRecipes>
+                <StyledRecipes01>Recipes</StyledRecipes01>
+              </StyledRecipes>
+            </StyledDepth6Frame202>
+            <StyledDepth6Frame302>
+              <StyledBroccobaegmailcom>broccobae@gmail.com</StyledBroccobaegmailcom>
+            </StyledDepth6Frame302>
+          </StyledPolicy02>
+          <StyledPolicy03>
+            <StyledDepth6Frame003>
+              <StyledStory>
+                <StyledStory01>Story</StyledStory01>
+              </StyledStory>
+            </StyledDepth6Frame003>
+            <StyledDepth6Frame203>
+              <StyledMealPlans>
+                <StyledMealPlans01>Meal Plans</StyledMealPlans01>
+              </StyledMealPlans>
+            </StyledDepth6Frame203>
+            <StyledDepth6Frame303>
+              <StyledSaitamaJapan>Saitama, Japan</StyledSaitamaJapan>
+            </StyledDepth6Frame303>
+          </StyledPolicy03>
+          <StyledPolicy04>
+            <StyledDepth6Frame004>
+              <StyledText> </StyledText>
+            </StyledDepth6Frame004>
+            <StyledDepth6Frame204>
+              <StyledCuisines>
+                <StyledCuisines01>Cuisines</StyledCuisines01>
+              </StyledCuisines>
+            </StyledDepth6Frame204>
+            <StyledDepth6Frame304 />
+          </StyledPolicy04>
+          <StyledPolicy05>
+            <StyledDepth6Frame205>
+              <StyledCommunity>
+                <StyledCommunity01>Community</StyledCommunity01>
+              </StyledCommunity>
+            </StyledDepth6Frame205>
+          </StyledPolicy05>
+          <StyledWebsites>
+            <StyledDepth6Frame005>
+              <StyledDepth7Frame0>
+                <StyledDepth8Frame0>
+                  <StyledVector0 />
+                  <StyledDepth9Frame0 />
+                </StyledDepth8Frame0>
+              </StyledDepth7Frame0>
+            </StyledDepth6Frame005>
+            <StyledDepth6Frame101>
+              <StyledDepth7Frame001>
+                <StyledDepth8Frame001>
+                  <StyledVector001 />
+                  <StyledDepth9Frame001 />
+                </StyledDepth8Frame001>
+              </StyledDepth7Frame001>
+            </StyledDepth6Frame101>
+            <StyledDepth6Frame206>
+              <StyledDepth7Frame002>
+                <StyledDepth8Frame002>
+                  <StyledVector002 />
+                  <StyledDepth9Frame002 />
+                </StyledDepth8Frame002>
+              </StyledDepth7Frame002>
+            </StyledDepth6Frame206>
+          </StyledWebsites>
+          <StyledCredits>
+            <StyledThankyouforVisitingOurSitegaiarecipeinccom>Thank you for Visiting Our Site! <br/>gaiarecipe inc.com</StyledThankyouforVisitingOurSitegaiarecipeinccom>
+            <Styled2025broccobaecomAllrightsreserved>@2025 broccobae.com All rights reserved.</Styled2025broccobaecomAllrightsreserved>
+          </StyledCredits>
+          <StyledDepth6Frame5 />
+        </StyledCompanypolicy>
+      </StyledFooterscreen>
+    </StyledFooter>
+  );
+}

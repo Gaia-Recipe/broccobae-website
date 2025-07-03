@@ -1,0 +1,122 @@
+<div style={{width: 1280, height: 480, background: '#E8F2ED', justifyContent: 'center', alignItems: 'flex-start', display: 'inline-flex'}}>
+  <div style={{flex: '1 1 0', maxWidth: 960, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+    <div style={{alignSelf: 'stretch', height: 516, paddingLeft: 20, paddingRight: 20, paddingTop: 40, paddingBottom: 40, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 25, display: 'flex'}}>
+      <div style={{alignSelf: 'stretch', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+        <div style={{width: 160, minWidth: 160, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+          <div data-property-1="Default" style={{width: 42, height: 21, position: 'relative'}}>
+            <div style={{width: 56, left: 0, top: 0, position: 'absolute', color: '#0D1C14', fontSize: 14, fontFamily: 'Epilogue', fontWeight: '600', textDecoration: 'underline', lineHeight: 21, wordWrap: 'break-word'}}>About</div>
+          </div>
+        </div>
+        <div style={{width: 160, minWidth: 160, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+          <div data-property-1="Default" style={{width: 42, height: 21, position: 'relative'}}>
+            <div style={{width: 120, left: 0, top: 0, position: 'absolute', color: '#0D1C14', fontSize: 14, fontFamily: 'Epilogue', fontWeight: '600', textDecoration: 'underline', lineHeight: 21, wordWrap: 'break-word'}}>Private Policy</div>
+          </div>
+        </div>
+        <div style={{width: 160, minWidth: 160, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+          <div data-property-1="Default" style={{width: 42, height: 21, position: 'relative'}}>
+            <div style={{width: 120, left: 0, top: 0, position: 'absolute', color: '#0D1C14', fontSize: 14, fontFamily: 'Epilogue', fontWeight: '600', textDecoration: 'underline', lineHeight: 21, wordWrap: 'break-word'}}>Terms of Service</div>
+          </div>
+        </div>
+        <div style={{width: 160, minWidth: 160, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+          <div data-property-1="Default" style={{width: 42, height: 21, position: 'relative'}}>
+            <div style={{width: 63, left: 0, top: 0, position: 'absolute', color: '#0D1C14', fontSize: 14, fontFamily: 'Epilogue', fontWeight: '600', textDecoration: 'underline', lineHeight: 21, wordWrap: 'break-word'}}>Contact</div>
+          </div>
+        </div>
+      </div>
+      <div style={{alignSelf: 'stretch', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+        <div style={{width: 160, minWidth: 160, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+          <div data-property-1="Default" style={{width: 42, height: 21, position: 'relative'}}>
+            <div style={{width: 60, left: 0, top: 0, position: 'absolute', color: '#0D1C14', fontSize: 14, fontFamily: 'Epilogue', fontWeight: '600', textDecoration: 'underline', lineHeight: 21, wordWrap: 'break-word'}}>Mission</div>
+          </div>
+        </div>
+        <div style={{width: 160, minWidth: 160, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+          <div data-property-1="Default" style={{width: 42, height: 21, position: 'relative'}}>
+            <div style={{width: 42, left: 0, top: 0, position: 'absolute', color: '#0D1C14', fontSize: 14, fontFamily: 'Epilogue', fontWeight: '600', textDecoration: 'underline', lineHeight: 21, wordWrap: 'break-word'}}>Home</div>
+          </div>
+        </div>
+        <div style={{width: 160, minWidth: 160, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+          <div style={{alignSelf: 'stretch', textAlign: 'center', color: '#0D1C14', fontSize: 14, fontFamily: 'Epilogue', fontWeight: '600', lineHeight: 24, wordWrap: 'break-word'}}>+8170-4312-4032</div>
+        </div>
+      </div>
+      <div style={{alignSelf: 'stretch', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+        <div style={{width: 160, minWidth: 160, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+          <div data-property-1="Default" style={{width: 42, height: 21, position: 'relative'}}>
+            <div style={{width: 53, left: 0, top: 0, position: 'absolute', color: '#0D1C14', fontSize: 14, fontFamily: 'Epilogue', fontWeight: '600', textDecoration: 'underline', lineHeight: 21, wordWrap: 'break-word'}}>Values</div>
+          </div>
+        </div>
+        <div style={{width: 160, minWidth: 160, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+          <div data-property-1="Default" style={{width: 57, height: 21, position: 'relative'}}>
+            <div style={{left: 0, top: 0, position: 'absolute', color: '#0D1C14', fontSize: 14, fontFamily: 'Epilogue', fontWeight: '600', textDecoration: 'underline', lineHeight: 21, wordWrap: 'break-word'}}>Recipes</div>
+          </div>
+        </div>
+        <div style={{width: 160, minWidth: 160, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+          <div style={{width: 188, textAlign: 'center', color: '#0D1C14', fontSize: 14, fontFamily: 'Epilogue', fontWeight: '600', lineHeight: 24, wordWrap: 'break-word'}}>broccobae@gmail.com</div>
+        </div>
+      </div>
+      <div style={{alignSelf: 'stretch', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+        <div style={{width: 160, minWidth: 160, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+          <div data-property-1="Default" style={{width: 42, height: 21, position: 'relative'}}>
+            <div style={{width: 42, left: 0, top: 0, position: 'absolute', color: '#0D1C14', fontSize: 14, fontFamily: 'Epilogue', fontWeight: '600', textDecoration: 'underline', lineHeight: 21, wordWrap: 'break-word'}}>Story</div>
+          </div>
+        </div>
+        <div style={{width: 160, minWidth: 160, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+          <div data-property-1="Default" style={{width: 77, height: 19, position: 'relative'}}>
+            <div style={{width: 77, height: 19, left: 0, top: 0, position: 'absolute', color: '#0D1C14', fontSize: 14, fontFamily: 'Epilogue', fontWeight: '600', textDecoration: 'underline', lineHeight: 21, wordWrap: 'break-word'}}>Meal Plans</div>
+          </div>
+        </div>
+        <div style={{width: 160, minWidth: 160, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+          <div style={{alignSelf: 'stretch', textAlign: 'center', color: '#0D1C14', fontSize: 14, fontFamily: 'Epilogue', fontWeight: '600', lineHeight: 24, wordWrap: 'break-word'}}>Saitama, Japan</div>
+        </div>
+      </div>
+      <div style={{alignSelf: 'stretch', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+        <div style={{width: 160, minWidth: 160, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+          <div style={{alignSelf: 'stretch', textAlign: 'center', color: '#0D1C14', fontSize: 16, fontFamily: 'Epilogue', fontWeight: '500', lineHeight: 24, wordWrap: 'break-word'}}> </div>
+        </div>
+        <div style={{width: 160, minWidth: 160, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+          <div data-property-1="Default" style={{width: 61, height: 19, position: 'relative'}}>
+            <div style={{width: 61, height: 19, left: 0, top: 0, position: 'absolute', color: '#0D1C14', fontSize: 14, fontFamily: 'Epilogue', fontWeight: '600', textDecoration: 'underline', lineHeight: 21, wordWrap: 'break-word'}}>Cuisines</div>
+          </div>
+        </div>
+        <div style={{width: 160, height: 24, minWidth: 160}} />
+      </div>
+      <div style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'center', gap: 24, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+        <div style={{width: 160, minWidth: 160, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+          <div data-property-1="Default" style={{width: 82, height: 19, position: 'relative'}}>
+            <div style={{width: 82, height: 19, left: 0, top: 0, position: 'absolute', color: '#0D1C14', fontSize: 14, fontFamily: 'Epilogue', fontWeight: '600', textDecoration: 'underline', lineHeight: 21, wordWrap: 'break-word'}}>Community</div>
+          </div>
+        </div>
+      </div>
+      <div style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'flex-start', gap: 16, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+          <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+            <div style={{width: 24, flex: '1 1 0', position: 'relative', overflow: 'hidden'}}>
+              <div style={{width: 24, height: 24, left: 0, top: 0, position: 'absolute', background: '#0D1C14', outline: '1px black solid', outlineOffset: '-0.50px'}} />
+              <div style={{left: 'undefined', top: 'undefined', position: 'absolute'}} />
+            </div>
+          </div>
+        </div>
+        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+          <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+            <div style={{width: 24, flex: '1 1 0', position: 'relative', overflow: 'hidden'}}>
+              <div style={{width: 24, height: 24, left: 0, top: 0, position: 'absolute', background: '#0D1C14', outline: '1px black solid', outlineOffset: '-0.50px'}} />
+              <div style={{left: 'undefined', top: 'undefined', position: 'absolute'}} />
+            </div>
+          </div>
+        </div>
+        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+          <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+            <div style={{width: 24, flex: '1 1 0', position: 'relative', overflow: 'hidden'}}>
+              <div style={{width: 24, height: 24, left: 0, top: 0, position: 'absolute', background: '#0D1C14', outline: '1px black solid', outlineOffset: '-0.50px'}} />
+              <div style={{left: 'undefined', top: 'undefined', position: 'absolute'}} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+        <div style={{alignSelf: 'stretch', textAlign: 'center', color: '#0D1C14', fontSize: 14, fontFamily: 'Epilogue', fontWeight: '500', lineHeight: 24, wordWrap: 'break-word'}}>Thank you for Visiting Our Site! <br/>gaiarecipe inc.com</div>
+        <div style={{alignSelf: 'stretch', textAlign: 'center', color: '#0D1C14', fontSize: 14, fontFamily: 'Epilogue', fontWeight: '500', lineHeight: 24, wordWrap: 'break-word'}}>@2025 broccobae.com All rights reserved.</div>
+      </div>
+      <div style={{width: 160, height: 24, minWidth: 160}} />
+    </div>
+  </div>
+</div>
