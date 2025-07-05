@@ -1,0 +1,250 @@
+/* Broccobae Cuisine Page Styles */
+
+.broccobae {
+  color: #09713D;
+  font-size: 18px;
+  font-family: Epilogue;
+  font-weight: 700;
+  line-height: 23px;
+  word-wrap: break-word;
+}
+
+.nav-home {
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+.nav-recipes {
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+.nav-meal-plans {
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+.nav-cuisines {
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+.nav-community {
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+.cuisines-title {
+  color: #121714;
+  font-size: 32px;
+  font-family: Epilogue;
+  font-weight: 700;
+  line-height: 40px;
+  word-wrap: break-word;
+}
+
+.cuisines-description {
+  color: #09713D;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 400;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+.asian-title {
+  color: #121714;
+  font-size: 16px;
+  font-family: Epilogue;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.asian-description {
+  color: #09713D;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 400;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+.mediterranean-title {
+  color: #121714;
+  font-size: 16px;
+  font-family: Epilogue;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.mediterranean-description {
+  color: #09713D;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 400;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+.indian-title {
+  color: #121714;
+  font-size: 16px;
+  font-family: Epilogue;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.indian-description {
+  color: #09713D;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 400;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+.american-title {
+  color: #121714;
+  font-size: 16px;
+  font-family: Epilogue;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.american-description {
+  color: #09713D;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 400;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+.mexican-title {
+  color: #121714;
+  font-size: 16px;
+  font-family: Epilogue;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.mexican-description {
+  color: #09713D;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 400;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+.advertisement-title {
+  color: #121714;
+  font-size: 22px;
+  font-family: Epilogue;
+  font-weight: 700;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+.event-title {
+  color: #121714;
+  font-size: 18px;
+  font-family: Epilogue;
+  font-weight: 700;
+  line-height: 23px;
+  word-wrap: break-word;
+}
+
+.event-description {
+  color: #09713D;
+  font-size: 16px;
+  font-family: Epilogue;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.register-button {
+  color: white;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 500;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+.footer-link {
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+.contact-info {
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.footer-text {
+  color: #0D1C14;
+  font-size: 16px;
+  font-family: Epilogue;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.copyright {
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.thank-you {
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}

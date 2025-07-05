@@ -1,0 +1,285 @@
+/* broccobae */
+.broccobae {
+  color: #09713D;
+  font-size: 18px;
+  font-family: Epilogue;
+  font-weight: 700;
+  line-height: 23px;
+  word-wrap: break-word;
+}
+
+/* Home */
+.home {
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+/* Recipes */
+.recipes {
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+/* Meal Plans */
+.meal-plans {
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+/* Cuisines */
+.cuisines {
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+/* Community */
+.community {
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+/* Plant-Powered Living */
+.hero-title {
+  color: white;
+  font-size: 48px;
+  font-family: Epilogue;
+  font-weight: 700;
+  line-height: 60px;
+  word-wrap: break-word;
+}
+
+/* Discover delicious vegan recipes, meal plans, and more. */
+.hero-subtitle {
+  color: white;
+  font-size: 16px;
+  font-family: Epilogue;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+/* Explore */
+.explore-btn {
+  color: #F7FCFA;
+  font-size: 16px;
+  font-family: Epilogue;
+  font-weight: 700;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+/* About broccobae */
+.about-title {
+  color: #121714;
+  font-size: 22px;
+  font-family: Epilogue;
+  font-weight: 700;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+/* About description */
+.about-description {
+  color: #121714;
+  font-size: 16px;
+  font-family: Epilogue;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+/* Featured Recipes */
+.featured-recipes-title {
+  color: #0D1C12;
+  font-size: 22px;
+  font-family: Epilogue;
+  font-weight: 700;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+/* Recipe titles */
+.recipe-title {
+  color: #0D1C12;
+  font-size: 16px;
+  font-family: Epilogue;
+  font-weight: 700;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+/* Recipe descriptions */
+.recipe-description {
+  color: #09713D;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 400;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+/* Advertisement */
+.advertisement-title {
+  color: #121714;
+  font-size: 22px;
+  font-family: Epilogue;
+  font-weight: 700;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+/* Advertisement subtitle */
+.advertisement-subtitle {
+  color: #121714;
+  font-size: 18px;
+  font-family: Epilogue;
+  font-weight: 700;
+  line-height: 23px;
+  word-wrap: break-word;
+}
+
+/* Advertisement description */
+.advertisement-description {
+  color: #09713D;
+  font-size: 16px;
+  font-family: Epilogue;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+/* Shop Now / Register Now buttons */
+.cta-button {
+  color: white;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 500;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+/* Section titles */
+.section-title {
+  color: #121714;
+  font-size: 22px;
+  font-family: Epilogue;
+  font-weight: 700;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+/* Cuisine/Category titles */
+.category-title {
+  color: #121714;
+  font-size: 16px;
+  font-family: Epilogue;
+  font-weight: 600;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+/* Category descriptions */
+.category-description {
+  color: #09713D;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 400;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+/* Article categories */
+.article-category {
+  color: #09713D;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+/* Article titles */
+.article-title {
+  color: #121714;
+  font-size: 16px;
+  font-family: Epilogue;
+  font-weight: 700;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+/* Article descriptions */
+.article-description {
+  color: #09713D;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 400;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+/* Footer links */
+.footer-link {
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+/* Contact info */
+.contact-info {
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 600;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+/* Footer text */
+.footer-text {
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+/* Copyright */
+.copyright {
+  color: #0D1C14;
+  font-size: 14px;
+  font-family: Epilogue;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
