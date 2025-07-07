@@ -129,7 +129,7 @@ body {
 }
 
 .tab:hover:not(.active) {
-    background: #E8F2ED;
+    background: #E5E8EB;
 }
 
 /* Recipe Grid */
@@ -263,7 +263,7 @@ body {
 
 /* Footer */
 .footer {
-    background: #E8F2ED;
+    background: #E5E8EB;
     padding: 40px 20px;
     margin-top: 40px;
 }
@@ -277,10 +277,14 @@ body {
 }
 
 .footer-links {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    background: #E5E8EB;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 20px;
 }
 
 .footer-column {
@@ -359,7 +363,9 @@ body {
     }
     
     .footer-links {
-        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
     }
 }
 
@@ -375,6 +381,12 @@ body {
     }
     
     .footer-links {
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .footer-column {
+        align-items: center;
     }
 }

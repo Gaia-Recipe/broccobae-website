@@ -1,4 +1,4 @@
-<div style={{width: 1280, height: 480, background: '#E8F2ED', justifyContent: 'center', alignItems: 'flex-start', display: 'inline-flex'}}>
+<div style={{width: 1280, height: 480, background: '#E5E8EB', justifyContent: 'center', alignItems: 'flex-start', display: 'inline-flex'}}>
   <div style={{flex: '1 1 0', maxWidth: 960, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
     <div style={{alignSelf: 'stretch', height: 516, paddingLeft: 20, paddingRight: 20, paddingTop: 40, paddingBottom: 40, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 25, display: 'flex'}}>
       <div style={{alignSelf: 'stretch', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
@@ -35,7 +35,7 @@
           </div>
         </div>
         <div style={{width: 160, minWidth: 160, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
-          <div style={{alignSelf: 'stretch', textAlign: 'center', color: '#0D1C14', fontSize: 14, fontFamily: 'Epilogue', fontWeight: '600', lineHeight: 24, wordWrap: 'break-word'}}>+8170-4312-4032</div>
+          <div style={{alignSelf: 'stretch', textAlign: 'center', color: '#0D1C14', fontSize: 14, fontFamily: 'Epilogue', fontWeight: '600', lineHeight: 24, wordWrap: 'break-word'}}>+8170-1234-5678</div>
         </div>
       </div>
       <div style={{alignSelf: 'stretch', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>

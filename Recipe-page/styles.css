@@ -3,7 +3,7 @@
     --text-dark: #121714;
     --text-secondary: #0D1C14;
     --background-light: #F7FCFA;
-    --background-secondary: #E8F2ED;
+    --background-secondary: #E5E8EB;
     --white: #ffffff;
     --border-radius: 12px;
     --transition: all 0.3s ease;
@@ -794,7 +794,7 @@ button {
 /* Cuisine Section */
 .cuisine-section {
     padding: 40px 0;
-    background-color: #ffffff;
+    background-color: #E5E8EB;
 }
 
 .section-title-row {
@@ -858,7 +858,7 @@ button {
 /* Community Section */
 .community-section {
     padding: 40px 0;
-    background-color: #ffffff;
+    background-color: #E5E8EB;
 }
 
 .section-title-row {
@@ -1074,7 +1074,7 @@ button {
 
 /* Footer Styles */
 .footer {
-    background-color: #E8F2ED;
+    background-color: #E5E8EB;
     padding: 40px 0;
     margin-top: 40px;
 }

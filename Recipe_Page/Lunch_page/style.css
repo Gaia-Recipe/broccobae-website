@@ -3,13 +3,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+html, body {
+    height: 100%;
 }
 
 body {
     font-family: 'Epilogue', sans-serif;
     line-height: 1.6;
     color: #0D1C14;
-    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .container {
@@ -62,6 +66,7 @@ body {
 /* Main Content */
 .main-content {
     padding: 40px 0;
+    flex: 1;
 }
 
 /* Recipe Section */
@@ -134,7 +139,7 @@ body {
 }
 
 .recipe-card {
-    background: white;
+    background: #E5E8EB;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -245,11 +250,12 @@ body {
     background-color: #075a2f;
 }
 
-/* Footer Styles */
+/* Footer */
 .footer {
-    background-color: #0D1C14;
-    color: white;
-    padding: 40px 0 20px;
+    background: #E5E8EB;
+    padding: 40px 20px 20px;
+    margin-top: auto;
+    width: 100%;
 }
 
 .footer-content {
@@ -259,10 +265,14 @@ body {
 }
 
 .footer-links {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 30px;
-    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    background: #E5E8EB;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 20px;
 }
 
 .footer-column {
@@ -272,7 +282,7 @@ body {
 }
 
 .footer-link {
-    color: white;
+    color: #0D1C14;
     font-size: 14px;
     font-weight: 400;
     text-decoration: none;
@@ -286,7 +296,7 @@ body {
 }
 
 .contact-info {
-    color: white;
+    color: #0D1C14;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
@@ -320,7 +330,7 @@ body {
 }
 
 .footer-text {
-    color: white;
+    color: #0D1C14;
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
@@ -369,8 +379,9 @@ body {
     }
     
     .footer-links {
-        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
         gap: 20px;
+        padding: 20px;
     }
 }
 
@@ -393,6 +404,12 @@ body {
     }
     
     .footer-links {
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .footer-column {
+        align-items: center;
     }
 }

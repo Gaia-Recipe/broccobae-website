@@ -5,10 +5,18 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
-    font-family: Epilogue, sans-serif;
-    background: #F7FCFA;
+    font-family: 'Epilogue', sans-serif;
+    line-height: 1.6;
+    color: #0D1C14;
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
+    background: #F7FCFA;
 }
 
 /* Header Styles */
@@ -67,6 +75,7 @@ body {
     max-width: 1280px;
     margin: 0 auto;
     padding: 20px 160px;
+    flex: 1;
 }
 
 /* Community Section */
@@ -404,9 +413,10 @@ body {
 
 /* Footer */
 .footer {
-    background: #E8F2ED;
-    padding: 40px 20px;
-    margin-top: 40px;
+    background: #E5E8EB;
+    padding: 40px 20px 20px;
+    margin-top: auto;
+    width: 100%;
 }
 
 .footer-content {
