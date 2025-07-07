@@ -33,55 +33,17 @@
 
                 <!-- Recipe Filter Tabs -->
                 <div class="recipe-tabs">
-                    <div class="tab active">All</div>
-                    <div class="tab">Breakfast</div>
-                    <div class="tab">Lunch</div>
-                    <div class="tab">Dinner</div>
-                    <div class="tab">Dessert</div>
-                    <div class="tab">Smoothie</div>
+                    <div class="tab active" data-category="all">All</div>
+                    <div class="tab" data-category="breakfast">Breakfast</div>
+                    <div class="tab" data-category="lunch">Lunch</div>
+                    <div class="tab" data-category="dinner">Dinner</div>
+                    <div class="tab" data-category="dessert">Dessert</div>
+                    <div class="tab" data-category="smoothie">Smoothie</div>
                 </div>
 
                 <!-- Recipe Grid -->
-                <div class="recipe-grid">
-                    <div class="recipe-card">
-                        <img src="All_Recipes/Avocado_Toast_with_Everything_Bagel_Seasoning.png" alt="Avocado Toast" class="recipe-image">
-                        <div class="recipe-card-content">
-                            <h3 class="recipe-card-title">Avocado Toast with Everything Bagel Seasoning</h3>
-                            <p class="recipe-card-description">A simple and satisfying breakfast staple.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="recipe-card">
-                        <img src="All_Recipes/Quinoa _Salad_with_Lemon_Vinaigrette.png" alt="Quinoa Salad" class="recipe-image">
-                        <div class="recipe-card-content">
-                            <h3 class="recipe-card-title">Quinoa Salad with Lemon Vinaigrette</h3>
-                            <p class="recipe-card-description">A refreshing and nutritious salad.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="recipe-card">
-                        <img src="All_Recipes/Spicy_Black_Bean_Burgers.png" alt="Black Bean Burgers" class="recipe-image">
-                        <div class="recipe-card-content">
-                            <h3 class="recipe-card-title">Spicy Black Bean Burgers</h3>
-                            <p class="recipe-card-description">Flavorful and hearty burgers.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="recipe-card">
-                        <img src="All_Recipes/Chocolate_Avocado_Mousse.png" alt="Chocolate Mousse" class="recipe-image">
-                        <div class="recipe-card-content">
-                            <h3 class="recipe-card-title">Chocolate Avocado Mousse</h3>
-                            <p class="recipe-card-description">A rich and creamy dessert.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="recipe-card">
-                        <img src="All_Recipes/Avocado_Banana_Smoothie.png" alt="Avocado Banana Smoothie" class="recipe-image">
-                        <div class="recipe-card-content">
-                            <h3 class="recipe-card-title">Avocado Banana Smoothie</h3>
-                            <p class="recipe-card-description">A smooth and nutritious blend of avocado, banana, and spinach.</p>
-                        </div>
-                    </div>
+                <div class="recipe-grid" id="recipe-grid">
+                    <!-- Recipes will be dynamically loaded here -->
                 </div>
             </section>
 
@@ -141,5 +103,206 @@
             </div>
         </footer>
     </div>
+
+    <script>
+        // Recipe data organized by category
+        const recipes = {
+            breakfast: [
+                {
+                    title: "Vegan Pancakes",
+                    description: "Fluffy pancakes made with plant-based milk and flour.",
+                    image: "Breakfast_page/Assets/Vegan_Pancakes.png"
+                },
+                {
+                    title: "Tofu Scramble",
+                    description: "Savory scramble made with crumbled tofu and spices.",
+                    image: "Breakfast_page/Assets/Tofu_Scramble.png"
+                },
+                {
+                    title: "Smoothie Bowl",
+                    description: "Colorful bowl filled with blended fruits and toppings.",
+                    image: "Breakfast_page/Assets/Smoothie_Bowl.png"
+                },
+                {
+                    title: "Avocado Toast with Everything Bagel Seasoning",
+                    description: "Toasted bread topped with mashed avocado and seasonings.",
+                    image: "Breakfast_page/Assets/Avocado_Toast_with_Everything_Bagel_Seasoning.png"
+                },
+                {
+                    title: "Chia Seed Pudding",
+                    description: "Creamy pudding made with chia seeds and plant-based milk.",
+                    image: "Breakfast_page/Assets/Chia_Seed_Pudding.png"
+                }
+            ],
+            lunch: [
+                {
+                    title: "Mediterranean Quinoa Salad",
+                    description: "Fresh quinoa salad with Mediterranean flavors.",
+                    image: "Lunch_page/Assets/Mediterranean_Quinoa_Salad.png"
+                },
+                {
+                    title: "Avocado & Chickpea Sandwich",
+                    description: "Hearty sandwich with avocado and seasoned chickpeas.",
+                    image: "Lunch_page/Assets/Avocado_&_Chickpea_Sandwich.png"
+                },
+                {
+                    title: "Lentil Soup with Kale",
+                    description: "Nutritious soup packed with lentils and fresh kale.",
+                    image: "Lunch_page/Assets/Lentil_Soup_with_Kale.png"
+                },
+                {
+                    title: "Vegan Burrito Bowl",
+                    description: "Colorful bowl with rice, beans, and fresh vegetables.",
+                    image: "Lunch_page/Assets/Vegan_Burrito_Bowl.png"
+                },
+                {
+                    title: "Spicy Tofu Scramble",
+                    description: "Flavorful tofu scramble with a spicy kick.",
+                    image: "Lunch_page/Assets/Spicy_Tofu_Scramble.png"
+                }
+            ],
+            dinner: [
+                {
+                    title: "Vegan Lasagna",
+                    description: "Layered pasta with rich tomato sauce and cashew cheese.",
+                    image: "Dinner_page/Assets/Vegan_Lasagna.png"
+                },
+                {
+                    title: "Black Bean Burgers",
+                    description: "Hearty burgers made with seasoned black beans.",
+                    image: "Dinner_page/Assets/Black_Bean_Burgers.png"
+                },
+                {
+                    title: "Creamy Tomato Pasta",
+                    description: "Rich and creamy pasta with fresh tomato sauce.",
+                    image: "Dinner_page/Assets/Creamy_Tomato_Pasta.png"
+                },
+                {
+                    title: "Lentil Shepherd's Pie",
+                    description: "Comforting pie with lentil filling and mashed potato topping.",
+                    image: "Dinner_page/Assets/Lentil_Shepherd's_Pie.png"
+                },
+                {
+                    title: "Spicy Tofu Stir-Fry",
+                    description: "Quick and flavorful stir-fry with crispy tofu.",
+                    image: "Dinner_page/Assets/Spicy_Tofu _Stir-Fry.png"
+                }
+            ],
+            dessert: [
+                {
+                    title: "Chocolate Avocado Mousse",
+                    description: "Rich and creamy chocolate mousse made with avocado.",
+                    image: "Dessert_page/Assets/Chocolate_Avocado_Mousse.png"
+                },
+                {
+                    title: "Vegan Chocolate Chip Cookies",
+                    description: "Classic cookies made with plant-based ingredients.",
+                    image: "Dessert_page/Assets/Vegan_Chocolate_Chip_Cookies.png"
+                },
+                {
+                    title: "Banana Nice Cream",
+                    description: "Creamy frozen treat made from frozen bananas.",
+                    image: "Dessert_page/Assets/Banana_Nice_Cream.png"
+                },
+                {
+                    title: "Berry Coconut Panna Cotta",
+                    description: "Elegant dessert with coconut milk and fresh berries.",
+                    image: "Dessert_page/Assets/Berry_Coconut_Panna_Cotta.png"
+                },
+                {
+                    title: "Mango Sticky Rice",
+                    description: "Traditional Thai dessert with coconut milk and mango.",
+                    image: "Dessert_page/Assets/Mango_Sticky_Rice.png"
+                }
+            ],
+            smoothie: [
+                {
+                    title: "Green Detox Smoothie",
+                    description: "Refreshing green smoothie packed with nutrients.",
+                    image: "Smoothie_page/Assets/Green_Detox_Smoothie.png"
+                },
+                {
+                    title: "Berry Blast Smoothie",
+                    description: "Antioxidant-rich smoothie with mixed berries.",
+                    image: "Smoothie_page/Assets/Berry_Blast_Smoothie.png"
+                },
+                {
+                    title: "Tropical Sunrise Smoothie",
+                    description: "Tropical blend of mango, pineapple, and coconut.",
+                    image: "Smoothie_page/Assets/Tropical_Sunrise_Smoothie.png"
+                },
+                {
+                    title: "Chocolate Peanut Butter Smoothie",
+                    description: "Indulgent smoothie with chocolate and peanut butter.",
+                    image: "Smoothie_page/Assets/Chocolate_Peanut_Butter_Smoothie.png"
+                },
+                {
+                    title: "Mango Lassi Smoothie",
+                    description: "Creamy Indian-inspired mango smoothie.",
+                    image: "Smoothie_page/Assets/Mango_Lassi_Smoothie.png"
+                }
+            ]
+        };
+
+        // Function to create recipe card HTML
+        function createRecipeCard(recipe) {
+            return `
+                <div class="recipe-card">
+                    <img src="${recipe.image}" alt="${recipe.title}" class="recipe-image">
+                    <div class="recipe-card-content">
+                        <h3 class="recipe-card-title">${recipe.title}</h3>
+                        <p class="recipe-card-description">${recipe.description}</p>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Function to display recipes based on category
+        function displayRecipes(category) {
+            const recipeGrid = document.getElementById('recipe-grid');
+            let recipesToShow = [];
+
+            if (category === 'all') {
+                // Show 1 recipe from each category for "All" tab
+                recipesToShow = [
+                    recipes.breakfast[0],
+                    recipes.lunch[0],
+                    recipes.dinner[0],
+                    recipes.dessert[0],
+                    recipes.smoothie[0]
+                ];
+            } else {
+                recipesToShow = recipes[category] || [];
+            }
+
+            recipeGrid.innerHTML = recipesToShow.map(createRecipeCard).join('');
+        }
+
+        // Function to handle tab switching
+        function handleTabClick(event) {
+            if (event.target.classList.contains('tab')) {
+                // Remove active class from all tabs
+                document.querySelectorAll('.tab').forEach(tab => {
+                    tab.classList.remove('active');
+                });
+
+                // Add active class to clicked tab
+                event.target.classList.add('active');
+
+                // Get category and display recipes
+                const category = event.target.getAttribute('data-category');
+                displayRecipes(category);
+            }
+        }
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add event listener to recipe tabs
+            document.querySelector('.recipe-tabs').addEventListener('click', handleTabClick);
+
+            // Display initial recipes (All category)
+            displayRecipes('all');
+        });
+    </script>
 </body>
 </html>

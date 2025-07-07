@@ -19,17 +19,23 @@ body {
     background: #F7FCFA;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 /* Header Styles */
 .header {
     width: 100%;
     background: white;
-    border-bottom: 1px solid #E5E8EB;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .header-container {
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 12px 40px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +44,7 @@ body {
 .logo-section {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 12px;
 }
 
 .logo {
@@ -49,66 +55,90 @@ body {
 .brand-name {
     color: #09713D;
     font-size: 18px;
-    font-family: Epilogue;
     font-weight: 700;
     line-height: 23px;
-    word-wrap: break-word;
 }
 
 .navigation {
     display: flex;
-    gap: 36px;
+    gap: 32px;
 }
 
 .nav-link {
     color: #0D1C14;
     font-size: 14px;
-    font-family: Epilogue;
     font-weight: 600;
     text-decoration: underline;
     line-height: 21px;
-    word-wrap: break-word;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #09713D;
 }
 
 /* Main Content */
 .main-content {
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 160px;
+    padding: 40px 20px;
     flex: 1;
+    width: 100%;
 }
 
 /* Community Section */
 .community-section {
+    margin-bottom: 60px;
+}
+
+.section-header {
+    text-align: center;
     margin-bottom: 40px;
 }
 
 .section-title {
     color: #0D1C12;
     font-size: 32px;
-    font-family: Epilogue;
     font-weight: 700;
     line-height: 40px;
-    word-wrap: break-word;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
+}
+
+.section-description {
+    color: #09713D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .community-tabs {
     display: flex;
+    justify-content: center;
     gap: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 
 .tab-button {
-    padding: 8px 16px;
-    border: none;
+    padding: 12px 24px;
+    border: 2px solid #09713D;
     border-radius: 8px;
+    background: transparent;
+    color: #09713D;
     cursor: pointer;
     font-size: 14px;
-    font-family: Epilogue;
-    font-weight: 700;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 600;
     line-height: 21px;
-    word-wrap: break-word;
+    transition: all 0.3s ease;
+}
+
+.tab-button:hover {
+    background: #09713D;
+    color: white;
 }
 
 .tab-button.active {
@@ -116,52 +146,11 @@ body {
     color: white;
 }
 
-.tab-button.inactive {
-    background: transparent;
-    color: #4D996B;
-}
-
-.summer-specials {
-    color: #0D1C12;
-    font-size: 14px;
-    font-family: Epilogue;
-    font-weight: 700;
-    line-height: 21px;
-    word-wrap: break-word;
-}
-
-.winter-warmers {
-    color: #4D996B;
-    font-size: 14px;
-    font-family: Epilogue;
-    font-weight: 700;
-    line-height: 21px;
-    word-wrap: break-word;
-}
-
-.monsoon-comforts {
-    color: #4D996B;
-    font-size: 14px;
-    font-family: Epilogue;
-    font-weight: 700;
-    line-height: 21px;
-    word-wrap: break-word;
-}
-
-.festive-vegan {
-    color: #4D996B;
-    font-size: 14px;
-    font-family: Epilogue;
-    font-weight: 700;
-    line-height: 21px;
-    word-wrap: break-word;
-}
-
 /* Recipe Cards Grid */
 .recipes-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
     margin-bottom: 40px;
 }
 
@@ -169,7 +158,14 @@ body {
     background: white;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.recipe-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
 .recipe-image {
@@ -179,165 +175,22 @@ body {
 }
 
 .recipe-info {
-    padding: 16px;
+    padding: 20px;
 }
 
 .recipe-title {
     color: #0D1C12;
     font-size: 16px;
-    font-family: Epilogue;
     font-weight: 500;
     line-height: 24px;
-    word-wrap: break-word;
     margin-bottom: 8px;
 }
 
-/* Summer Recipes */
-.summer-bbq {
-    color: #0D1C12;
-    font-size: 16px;
-    font-family: Epilogue;
-    font-weight: 500;
-    line-height: 24px;
-    word-wrap: break-word;
-}
-
-.summer-salads {
-    color: #0D1C12;
-    font-size: 16px;
-    font-family: Epilogue;
-    font-weight: 500;
-    line-height: 24px;
-    word-wrap: break-word;
-}
-
-.summer-desserts {
-    color: #0D1C12;
-    font-size: 16px;
-    font-family: Epilogue;
-    font-weight: 500;
-    line-height: 24px;
-    word-wrap: break-word;
-}
-
-.summer-drinks {
-    color: #0D1C12;
-    font-size: 16px;
-    font-family: Epilogue;
-    font-weight: 500;
-    line-height: 24px;
-    word-wrap: break-word;
-}
-
-/* Winter Recipes */
-.winter-soups {
-    color: #0D1C12;
-    font-size: 16px;
-    font-family: Epilogue;
-    font-weight: 500;
-    line-height: 24px;
-    word-wrap: break-word;
-}
-
-.winter-bakes {
-    color: #0D1C12;
-    font-size: 16px;
-    font-family: Epilogue;
-    font-weight: 500;
-    line-height: 24px;
-    word-wrap: break-word;
-}
-
-.winter-drinks {
-    color: #0D1C12;
-    font-size: 16px;
-    font-family: Epilogue;
-    font-weight: 500;
-    line-height: 24px;
-    word-wrap: break-word;
-}
-
-.winter-comfort-foods {
-    color: #0D1C12;
-    font-size: 16px;
-    font-family: Epilogue;
-    font-weight: 500;
-    line-height: 24px;
-    word-wrap: break-word;
-}
-
-/* Monsoon Recipes */
-.monsoon-curries {
-    color: #0D1C12;
-    font-size: 16px;
-    font-family: Epilogue;
-    font-weight: 500;
-    line-height: 24px;
-    word-wrap: break-word;
-}
-
-.monsoon-snacks {
-    color: #0D1C12;
-    font-size: 16px;
-    font-family: Epilogue;
-    font-weight: 500;
-    line-height: 24px;
-    word-wrap: break-word;
-}
-
-.monsoon-desserts {
-    color: #0D1C12;
-    font-size: 16px;
-    font-family: Epilogue;
-    font-weight: 500;
-    line-height: 24px;
-    word-wrap: break-word;
-}
-
-.monsoon-drinks {
-    color: #0D1C12;
-    font-size: 16px;
-    font-family: Epilogue;
-    font-weight: 500;
-    line-height: 24px;
-    word-wrap: break-word;
-}
-
-/* Holiday Recipes */
-.holiday-roast {
-    color: #0D1C12;
-    font-size: 16px;
-    font-family: Epilogue;
-    font-weight: 500;
-    line-height: 24px;
-    word-wrap: break-word;
-}
-
-.holiday-sides {
-    color: #0D1C12;
-    font-size: 16px;
-    font-family: Epilogue;
-    font-weight: 500;
-    line-height: 24px;
-    word-wrap: break-word;
-}
-
-.holiday-desserts {
-    color: #0D1C12;
-    font-size: 16px;
-    font-family: Epilogue;
-    font-weight: 500;
-    line-height: 24px;
-    word-wrap: break-word;
-}
-
-.holiday-drinks {
-    color: #0D1C12;
-    font-size: 16px;
-    font-family: Epilogue;
-    font-weight: 500;
-    line-height: 24px;
-    word-wrap: break-word;
+.recipe-description {
+    color: #09713D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
 }
 
 /* Advertisement Section */
@@ -348,11 +201,10 @@ body {
 .ad-title {
     color: #121714;
     font-size: 22px;
-    font-family: Epilogue;
     font-weight: 700;
     line-height: 28px;
-    word-wrap: break-word;
-    margin-bottom: 16px;
+    text-align: center;
+    margin-bottom: 24px;
 }
 
 .ad-content {
@@ -360,18 +212,20 @@ body {
     background: white;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .ad-image {
-    flex: 1;
+    width: 50%;
     height: 286px;
     object-fit: cover;
 }
 
 .ad-text {
-    flex: 1;
-    padding: 16px;
+    width: 50%;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -381,34 +235,33 @@ body {
 .ad-event-title {
     color: #121714;
     font-size: 18px;
-    font-family: Epilogue;
     font-weight: 700;
     line-height: 23px;
-    word-wrap: break-word;
 }
 
 .ad-description {
     color: #09713D;
     font-size: 16px;
-    font-family: Epilogue;
     font-weight: 400;
     line-height: 24px;
-    word-wrap: break-word;
 }
 
 .ad-button {
     background: #09713D;
     color: white;
     font-size: 14px;
-    font-family: Epilogue;
     font-weight: 500;
     line-height: 21px;
-    word-wrap: break-word;
-    padding: 8px 16px;
+    padding: 12px 24px;
     border: none;
-    border-radius: 12px;
+    border-radius: 6px;
     cursor: pointer;
+    transition: background 0.3s ease;
     align-self: flex-start;
+}
+
+.ad-button:hover {
+    background: #075a2f;
 }
 
 /* Footer */
@@ -420,14 +273,14 @@ body {
 }
 
 .footer-content {
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .footer-links {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
     margin-bottom: 30px;
 }
 
@@ -436,39 +289,31 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    gap: 16px;
 }
 
 .footer-link {
     color: #0D1C14;
     font-size: 14px;
-    font-family: Epilogue;
     font-weight: 600;
     text-decoration: underline;
     line-height: 21px;
-    word-wrap: break-word;
-    min-width: 160px;
-    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #09713D;
 }
 
 .contact-info {
     color: #0D1C14;
     font-size: 14px;
-    font-family: Epilogue;
     font-weight: 600;
     line-height: 24px;
-    word-wrap: break-word;
-    min-width: 160px;
-    text-align: center;
 }
 
 .footer-spacer {
-    color: #0D1C14;
-    font-size: 16px;
-    font-family: Epilogue;
-    font-weight: 500;
-    line-height: 24px;
-    word-wrap: break-word;
-    min-width: 160px;
+    flex: 1;
 }
 
 .social-media {
@@ -481,59 +326,96 @@ body {
 .social-icon {
     width: 24px;
     height: 24px;
-    background: #0D1C14;
-    border-radius: 4px;
+    background: #09713D;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.social-icon:hover {
+    background: #075a2f;
 }
 
 .footer-bottom {
     text-align: center;
+    border-top: 1px solid #D1D5DB;
+    padding-top: 20px;
 }
 
 .footer-text {
     color: #0D1C14;
     font-size: 14px;
-    font-family: Epilogue;
     font-weight: 500;
     line-height: 24px;
-    word-wrap: break-word;
     margin-bottom: 8px;
-}
-
-.copyright {
-    color: #0D1C14;
-    font-size: 14px;
-    font-family: Epilogue;
-    font-weight: 500;
-    line-height: 24px;
-    word-wrap: break-word;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .main-content {
-        padding: 20px;
-    }
-    
     .header-container {
-        padding: 12px 20px;
         flex-direction: column;
-        gap: 16px;
+        gap: 20px;
     }
     
     .navigation {
         gap: 20px;
     }
     
+    .main-content {
+        padding: 20px;
+    }
+    
+    .community-tabs {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .tab-button {
+        width: 200px;
+        text-align: center;
+    }
+    
     .recipes-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
     }
     
     .ad-content {
         flex-direction: column;
     }
     
+    .ad-image {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .ad-text {
+        width: 100%;
+        padding: 30px;
+    }
+    
     .footer-row {
         flex-direction: column;
-        gap: 16px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    
+    .recipes-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .tab-button {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    
+    .ad-text {
+        padding: 20px;
     }
 }

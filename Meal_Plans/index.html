@@ -35,58 +35,18 @@
                                 </p>
                             </div>
                             <div class="filter-tabs">
-                                <button class="filter-tab active">All</button>
-                                <button class="filter-tab">High-Protein</button>
-                                <button class="filter-tab">Low Carb</button>
-                                <button class="filter-tab">Gluten-Free</button>
-                                <button class="filter-tab">Budget-Friendly</button>
-                                <button class="filter-tab">Weight Loss</button>
+                                <button class="filter-tab active" data-category="all">All</button>
+                                <button class="filter-tab" data-category="high-protein">High-Protein</button>
+                                <button class="filter-tab" data-category="low-carb">Low Carb</button>
+                                <button class="filter-tab" data-category="gluten-free">Gluten-Free</button>
+                                <button class="filter-tab" data-category="budget-friendly">Budget-Friendly</button>
+                                <button class="filter-tab" data-category="weight-loss">Weight Loss</button>
                             </div>
                         </div>
                         
                         <div class="meal-plans-grid">
-                            <div class="grid-container">
-                                <div class="meal-plans-row">
-                                    <div class="meal-plan-card">
-                                        <img src="Meal_Plan_Recipes/High_Protein_Vegan_Power.png" alt="High-Protein Vegan Power" class="meal-plan-image">
-                                        <div class="meal-plan-info">
-                                            <h3 class="meal-plan-title">High-Protein Vegan Power</h3>
-                                            <p class="meal-plan-description">Fuel your active lifestyle with this high-protein vegan meal plan.</p>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="meal-plan-card">
-                                        <img src="Meal_Plan_Recipes/Low_Carb_Vegan_Delight.png" alt="Low-Carb Vegan Delights" class="meal-plan-image">
-                                        <div class="meal-plan-info">
-                                            <h3 class="meal-plan-title">Low-Carb Vegan Delights</h3>
-                                            <p class="meal-plan-description">Enjoy delicious and nutritious low-carb vegan meals for a week.</p>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="meal-plan-card">
-                                        <img src="Meal_Plan_Recipes/Gluten_Free_Vegan_Delight.png" alt="Gluten-Free Vegan Delights" class="meal-plan-image">
-                                        <div class="meal-plan-info">
-                                            <h3 class="meal-plan-title">Gluten-Free Vegan Delights</h3>
-                                            <p class="meal-plan-description">Enjoy delicious and nutritious gluten-free vegan meals for a week.</p>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="meal-plan-card">
-                                        <img src="Meal_Plan_Recipes/Budget_Friendly_Vegan_Eats.png" alt="Budget-Friendly Vegan Eats" class="meal-plan-image">
-                                        <div class="meal-plan-info">
-                                            <h3 class="meal-plan-title">Budget-Friendly Vegan Eats</h3>
-                                            <p class="meal-plan-description">Save money with this budget-friendly vegan meal plan.</p>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="meal-plan-card">
-                                        <img src="Meal_Plan_Recipes/Weight_Loss_Vegan_Plan.png" alt="Weight Loss Vegan Plan" class="meal-plan-image">
-                                        <div class="meal-plan-info">
-                                            <h3 class="meal-plan-title">Weight Loss Vegan Plan</h3>
-                                            <p class="meal-plan-description">Achieve your weight loss goals with this healthy vegan meal plan.</p>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="grid-container" id="meal-plans-container">
+                                <!-- Meal plans will be dynamically loaded here -->
                             </div>
                         </div>
                     </div>
@@ -127,14 +87,207 @@
     </div>
     
     <script>
-        // Simple filter functionality
-        document.querySelectorAll('.filter-tab').forEach(tab => {
-            tab.addEventListener('click', function() {
+        // Meal plan data organized by category
+        const mealPlans = {
+            'high-protein': [
+                {
+                    title: "Tempeh Stir Fry with Brown Rice",
+                    description: "High-protein tempeh stir-fry with nutritious brown rice.",
+                    image: "High_Protein_page/Assets/Tempeh_Stir_Fry_with_Brown_Rice.png"
+                },
+                {
+                    title: "Quinoa Salad with Black Beans and Avocado",
+                    description: "Protein-packed quinoa salad with black beans and creamy avocado.",
+                    image: "High_Protein_page/Assets/Quinoa_Salad_with_Black_Beans_and_Avocado.png"
+                },
+                {
+                    title: "Chickpea Flour Omelette with Veggies",
+                    description: "Protein-rich chickpea flour omelette loaded with fresh vegetables.",
+                    image: "High_Protein_page/Assets/Chickpea_Flour_Omelette_with_Veggies.png"
+                },
+                {
+                    title: "Protein Smoothie with Plant Based Protein Powder",
+                    description: "Energizing smoothie with plant-based protein powder and fruits.",
+                    image: "High_Protein_page/Assets/Protein_Smoothie_with_Plant_Based_Protein_Powder.png"
+                },
+                {
+                    title: "Roasted Chickpeas with Spices",
+                    description: "Crunchy roasted chickpeas seasoned with aromatic spices.",
+                    image: "High_Protein_page/Assets/Roasted_Chickpeas_with_Spices.png"
+                }
+            ],
+            'low-carb': [
+                {
+                    title: "Grilled Eggplant Steaks with Roasted Vegetables",
+                    description: "Hearty grilled eggplant steaks with colorful roasted vegetables.",
+                    image: "Low_Carb_page/Assets/Grilled_Eggplant_Steaks_with_Roasted_Vegetables.png"
+                },
+                {
+                    title: "Spinach and Mushroom Salad with Lemon Vinaigrette",
+                    description: "Fresh spinach and mushroom salad with zesty lemon dressing.",
+                    image: "Low_Carb_page/Assets/Spinach_and_Mushroom_Salad_with_Lemon_Vinaigrette.png"
+                },
+                {
+                    title: "Chia Seed Pudding with Berries",
+                    description: "Low-carb chia seed pudding topped with fresh berries.",
+                    image: "Low_Carb_page/Assets/Chia_Seed_Pudding_with_Berries.png"
+                },
+                {
+                    title: "Coconut Cream with Raspberries",
+                    description: "Rich coconut cream dessert with fresh raspberries.",
+                    image: "Low_Carb_page/Assets/Coconut_Cream_with_Raspberries.png"
+                },
+                {
+                    title: "Celery Sticks with Almond Butter",
+                    description: "Crunchy celery sticks paired with creamy almond butter.",
+                    image: "Low_Carb_page/Assets/Celery_Sticks_with_Almond_Butter.png"
+                }
+            ],
+            'gluten-free': [
+                {
+                    title: "Gluten Free Buckwheat Pancakes",
+                    description: "Fluffy gluten-free pancakes made with nutritious buckwheat flour.",
+                    image: "Gluten_free_page/Assets/Gluten_Free_Buckwheat_Pancakes.png"
+                },
+                {
+                    title: "Chickpea Curry with Cauliflower Rice",
+                    description: "Spiced chickpea curry served over cauliflower rice.",
+                    image: "Gluten_free_page/Assets/Chickpea_Curry_with_Cauliflower_Rice.png"
+                },
+                {
+                    title: "Rainbow Veggie Wraps",
+                    description: "Colorful vegetable wraps with gluten-free tortillas.",
+                    image: "Gluten_free_page/Assets/Rainbow_Veggie_Wraps.png"
+                },
+                {
+                    title: "Coconut Chia Seed Pudding",
+                    description: "Creamy coconut chia pudding that's naturally gluten-free.",
+                    image: "Gluten_free_page/Assets/Coconut_Chia_Seed_Pudding.png"
+                },
+                {
+                    title: "Trail Mix with Dried Fruits and Nuts",
+                    description: "Energy-boosting trail mix with dried fruits and mixed nuts.",
+                    image: "Gluten_free_page/Assets/Trail_Mix_with_Dried_Fruits_and_Nuts.png"
+                }
+            ],
+            'budget-friendly': [
+                {
+                    title: "Vegan Chili",
+                    description: "Hearty and affordable vegan chili packed with beans and vegetables.",
+                    image: "Budget_Friendly_page/Assets/Vegan_Chili.png"
+                },
+                {
+                    title: "Pasta Primavera",
+                    description: "Simple and budget-friendly pasta with fresh seasonal vegetables.",
+                    image: "Budget_Friendly_page/Assets/Pasta_Primavera.png"
+                },
+                {
+                    title: "Vegan Shepherd's Pie",
+                    description: "Comforting shepherd's pie made with affordable plant-based ingredients.",
+                    image: "Budget_Friendly_page/Assets/Vegan_Shepherd's_Pie.png"
+                },
+                {
+                    title: "Vegan Tacos",
+                    description: "Delicious and economical tacos with seasoned beans and vegetables.",
+                    image: "Budget_Friendly_page/Assets/Vegan_Tacos.png"
+                },
+                {
+                    title: "Vegetable Stir Fry",
+                    description: "Quick and budget-friendly stir-fry with mixed vegetables.",
+                    image: "Budget_Friendly_page/Assets/Vegetable_Stir_Fry.png"
+                }
+            ],
+            'weight-loss': [
+                {
+                    title: "Mediterranean Chickpea Salad",
+                    description: "Light and nutritious Mediterranean-style chickpea salad.",
+                    image: "Weight_Loss_page/Assets/Mediterranean_Chickpea_Salad.png"
+                },
+                {
+                    title: "Spiced Tofu Stir Fry",
+                    description: "Low-calorie spiced tofu stir-fry with fresh vegetables.",
+                    image: "Weight_Loss_page/Assets/Spiced_Tofu_Stir_Fry.png"
+                },
+                {
+                    title: "Tropical Chia Seed Pudding",
+                    description: "Light tropical chia pudding perfect for weight management.",
+                    image: "Weight_Loss_page/Assets/Tropical_Chia_Seed_Pudding.png"
+                },
+                {
+                    title: "Cucumber and Hummus Bites",
+                    description: "Refreshing cucumber bites with protein-rich hummus.",
+                    image: "Weight_Loss_page/Assets/Cucumber_and_Hummus_Bites.png"
+                },
+                {
+                    title: "Handful of Mixed Nuts",
+                    description: "Portion-controlled mixed nuts for healthy snacking.",
+                    image: "Weight_Loss_page/Assets/Handful_of_Mixed_Nuts.png"
+                }
+            ]
+        };
+
+        // Function to create meal plan card HTML
+        function createMealPlanCard(mealPlan) {
+            return `
+                <div class="meal-plan-card">
+                    <img src="${mealPlan.image}" alt="${mealPlan.title}" class="meal-plan-image">
+                    <div class="meal-plan-info">
+                        <h3 class="meal-plan-title">${mealPlan.title}</h3>
+                        <p class="meal-plan-description">${mealPlan.description}</p>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Function to display meal plans based on category
+        function displayMealPlans(category) {
+            const container = document.getElementById('meal-plans-container');
+            let plansToShow = [];
+
+            if (category === 'all') {
+                // Show 1 meal plan from each category for "All" tab
+                plansToShow = [
+                    mealPlans['high-protein'][0],
+                    mealPlans['low-carb'][0],
+                    mealPlans['gluten-free'][0],
+                    mealPlans['budget-friendly'][0],
+                    mealPlans['weight-loss'][0]
+                ];
+            } else {
+                plansToShow = mealPlans[category] || [];
+            }
+
+            container.innerHTML = `
+                <div class="meal-plans-row">
+                    ${plansToShow.map(createMealPlanCard).join('')}
+                </div>
+            `;
+        }
+
+        // Function to handle tab switching
+        function handleTabClick(event) {
+            if (event.target.classList.contains('filter-tab')) {
                 // Remove active class from all tabs
-                document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.filter-tab').forEach(tab => {
+                    tab.classList.remove('active');
+                });
+
                 // Add active class to clicked tab
-                this.classList.add('active');
-            });
+                event.target.classList.add('active');
+
+                // Get category and display meal plans
+                const category = event.target.getAttribute('data-category');
+                displayMealPlans(category);
+            }
+        }
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add event listener to filter tabs
+            document.querySelector('.filter-tabs').addEventListener('click', handleTabClick);
+
+            // Display initial meal plans (All category)
+            displayMealPlans('all');
         });
     </script>
 </body>

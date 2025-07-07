@@ -5,112 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Community - broccobae</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <!-- Header -->
         <header class="header">
-            <nav class="nav">
-                <div class="logo">broccobae</div>
-                <ul class="nav-links">
-                    <li><a href="#" class="nav-link">Home</a></li>
-                    <li><a href="#" class="nav-link">Recipes</a></li>
-                    <li><a href="#" class="nav-link">Meal Plans</a></li>
-                    <li><a href="#" class="nav-link">Cuisines</a></li>
-                    <li><a href="#" class="nav-link active">Community</a></li>
-                </ul>
-            </nav>
+            <div class="header-container">
+                <div class="logo-section">
+                    <img src="Logo_Icon/Logo_Icon.png" alt="Broccobae Logo" class="logo">
+                    <div class="brand-name">broccobae</div>
+                </div>
+                <nav class="navigation">
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="#" class="nav-link">Recipes</a>
+                    <a href="#" class="nav-link">Meal Plans</a>
+                    <a href="#" class="nav-link">Cuisines</a>
+                    <a href="#" class="nav-link active">Community</a>
+                </nav>
+            </div>
         </header>
 
         <!-- Main Content -->
         <main class="main-content">
             <!-- Community Section -->
             <section class="community-section">
+                <div class="section-header">
+                    <h1 class="section-title">Community Picks</h1>
+                    <p class="section-description">Discover seasonal favorites and festive delights from our vibrant vegan community.</p>
+                </div>
+                
                 <div class="community-tabs">
-                    <div class="tab active">Summer Specials</div>
-                    <div class="tab">Winter Warmers</div>
-                    <div class="tab">Monsoon Comforts</div>
-                    <div class="tab">Festive Vegan</div>
+                    <button class="tab-button active" data-category="all">All</button>
+                    <button class="tab-button" data-category="summer">Summer Specials</button>
+                    <button class="tab-button" data-category="winter">Winter Warmers</button>
+                    <button class="tab-button" data-category="monsoon">Monsoon Comforts</button>
+                    <button class="tab-button" data-category="festive">Festive Vegan</button>
                 </div>
 
-                <!-- Summer Specials -->
-                <div class="recipe-grid">
-                    <div class="recipe-card">
-                        <img src="https://placehold.co/223x223" alt="Summer BBQ" class="recipe-image">
-                        <h3 class="recipe-title">Summer BBQ</h3>
-                    </div>
-                    <div class="recipe-card">
-                        <img src="https://placehold.co/223x223" alt="Summer Salads" class="recipe-image">
-                        <h3 class="recipe-title">Summer Salads</h3>
-                    </div>
-                    <div class="recipe-card">
-                        <img src="https://placehold.co/223x223" alt="Summer Desserts" class="recipe-image">
-                        <h3 class="recipe-title">Summer Desserts</h3>
-                    </div>
-                    <div class="recipe-card">
-                        <img src="https://placehold.co/223x223" alt="Summer Drinks" class="recipe-image">
-                        <h3 class="recipe-title">Summer Drinks</h3>
-                    </div>
-                </div>
-
-                <!-- Winter Warmers -->
-                <div class="recipe-grid">
-                    <div class="recipe-card">
-                        <img src="https://placehold.co/223x223" alt="Winter Soups" class="recipe-image">
-                        <h3 class="recipe-title">Winter Soups</h3>
-                    </div>
-                    <div class="recipe-card">
-                        <img src="https://placehold.co/223x223" alt="Winter Bakes" class="recipe-image">
-                        <h3 class="recipe-title">Winter Bakes</h3>
-                    </div>
-                    <div class="recipe-card">
-                        <img src="https://placehold.co/223x223" alt="Winter Drinks" class="recipe-image">
-                        <h3 class="recipe-title">Winter Drinks</h3>
-                    </div>
-                    <div class="recipe-card">
-                        <img src="https://placehold.co/223x223" alt="Winter Comfort Foods" class="recipe-image">
-                        <h3 class="recipe-title">Winter Comfort Foods</h3>
-                    </div>
-                </div>
-
-                <!-- Monsoon Comforts -->
-                <div class="recipe-grid">
-                    <div class="recipe-card">
-                        <img src="https://placehold.co/223x223" alt="Monsoon Snacks" class="recipe-image">
-                        <h3 class="recipe-title">Monsoon Snacks</h3>
-                    </div>
-                    <div class="recipe-card">
-                        <img src="https://placehold.co/223x223" alt="Monsoon Curries" class="recipe-image">
-                        <h3 class="recipe-title">Monsoon Curries</h3>
-                    </div>
-                    <div class="recipe-card">
-                        <img src="https://placehold.co/223x223" alt="Monsoon Drinks" class="recipe-image">
-                        <h3 class="recipe-title">Monsoon Drinks</h3>
-                    </div>
-                    <div class="recipe-card">
-                        <img src="https://placehold.co/223x223" alt="Monsoon Desserts" class="recipe-image">
-                        <h3 class="recipe-title">Monsoon Desserts</h3>
-                    </div>
-                </div>
-
-                <!-- Festive Vegan -->
-                <div class="recipe-grid">
-                    <div class="recipe-card">
-                        <img src="https://placehold.co/223x223" alt="Holiday Roasts" class="recipe-image">
-                        <h3 class="recipe-title">Holiday Roasts</h3>
-                    </div>
-                    <div class="recipe-card">
-                        <img src="https://placehold.co/223x223" alt="Holiday Desserts" class="recipe-image">
-                        <h3 class="recipe-title">Holiday Desserts</h3>
-                    </div>
-                    <div class="recipe-card">
-                        <img src="https://placehold.co/223x223" alt="Holiday Sides" class="recipe-image">
-                        <h3 class="recipe-title">Holiday Sides</h3>
-                    </div>
-                    <div class="recipe-card">
-                        <img src="https://placehold.co/223x223" alt="Holiday Drinks" class="recipe-image">
-                        <h3 class="recipe-title">Holiday Drinks</h3>
-                    </div>
+                <div class="recipes-grid" id="recipesGrid">
+                    <!-- Recipes will be dynamically populated here -->
                 </div>
             </section>
 
@@ -118,9 +52,9 @@
             <section class="advertisement-section">
                 <h2 class="ad-title">Advertisement</h2>
                 <div class="ad-content">
-                    <img src="https://placehold.co/624x286" alt="Exclusive Vegan Event" class="ad-image">
+                    <img src="Advertisement/Exclusive_Vegan_Event.png" alt="Exclusive Vegan Event" class="ad-image">
                     <div class="ad-text">
-                        <h3 class="ad-heading">Exclusive Vegan Event</h3>
+                        <h3 class="ad-event-title">Exclusive Vegan Event</h3>
                         <p class="ad-description">Join our exclusive vegan event featuring cooking demos, workshops, and more. Register today!</p>
                         <button class="ad-button">Register Now</button>
                     </div>
@@ -132,27 +66,38 @@
         <footer class="footer">
             <div class="footer-content">
                 <div class="footer-links">
-                    <div class="footer-column">
+                    <div class="footer-row">
                         <a href="#" class="footer-link">About</a>
-                        <a href="#" class="footer-link">Mission</a>
-                        <a href="#" class="footer-link">Values</a>
-                        <a href="#" class="footer-link">Story</a>
-                    </div>
-                    <div class="footer-column">
                         <a href="#" class="footer-link">Private Policy</a>
-                        <a href="#" class="footer-link">Home</a>
-                        <a href="#" class="footer-link">Recipes</a>
-                        <a href="#" class="footer-link">Meal Plans</a>
-                    </div>
-                    <div class="footer-column">
                         <a href="#" class="footer-link">Terms of Service</a>
-                        <div class="contact-info">+8170-1234-5678</div>
-                        <div class="contact-info">broccobae@gmail.com</div>
-                        <div class="contact-info">Saitama, Japan</div>
-                    </div>
-                    <div class="footer-column">
                         <a href="#" class="footer-link">Contact</a>
+                    </div>
+                    
+                    <div class="footer-row">
+                        <a href="#" class="footer-link">Mission</a>
+                        <a href="#" class="footer-link">Home</a>
+                        <span class="contact-info">+8170-1234-5678</span>
+                    </div>
+                    
+                    <div class="footer-row">
+                        <a href="#" class="footer-link">Values</a>
+                        <a href="#" class="footer-link">Recipes</a>
+                        <span class="contact-info">broccobae@gmail.com</span>
+                    </div>
+                    
+                    <div class="footer-row">
+                        <a href="#" class="footer-link">Story</a>
+                        <a href="#" class="footer-link">Meal Plans</a>
+                        <span class="contact-info">Saitama, Japan</span>
+                    </div>
+                    
+                    <div class="footer-row">
+                        <span class="footer-spacer"></span>
                         <a href="#" class="footer-link">Cuisines</a>
+                        <span class="footer-spacer"></span>
+                    </div>
+                    
+                    <div class="footer-row">
                         <a href="#" class="footer-link">Community</a>
                     </div>
                 </div>
@@ -170,5 +115,153 @@
             </div>
         </footer>
     </div>
+
+    <script>
+        // Community recipes database
+        const communityRecipes = {
+            summer: [
+                {
+                    title: "Summer BBQ",
+                    image: "Summer_Specials/Summer_BBQ.png",
+                    description: "Grilled plant-based delights perfect for outdoor gatherings"
+                },
+                {
+                    title: "Summer Salads",
+                    image: "Summer_Specials/Summer_Salads.png",
+                    description: "Fresh, crisp salads to beat the summer heat"
+                },
+                {
+                    title: "Summer Desserts",
+                    image: "Summer_Specials/Summer_Desserts.png",
+                    description: "Cool and refreshing sweet treats for hot days"
+                },
+                {
+                    title: "Summer Drinks",
+                    image: "Summer_Specials/Summer_Drinks.png",
+                    description: "Hydrating beverages and smoothies for summer"
+                }
+            ],
+            winter: [
+                {
+                    title: "Winter Soup",
+                    image: "Winter_Warmers/Winter_Soup.png",
+                    description: "Hearty soups to warm you from the inside out"
+                },
+                {
+                    title: "Winter Bakes",
+                    image: "Winter_Warmers/Winter_Bakes.png",
+                    description: "Comforting baked goods for cold winter nights"
+                },
+                {
+                    title: "Winter Drinks",
+                    image: "Winter_Warmers/Winter_Drinks.png",
+                    description: "Hot beverages to keep you cozy and warm"
+                },
+                {
+                    title: "Winter Comfort Foods",
+                    image: "Winter_Warmers/Winter_Comfort_Foods.png",
+                    description: "Soul-warming dishes for the coldest days"
+                }
+            ],
+            monsoon: [
+                {
+                    title: "Monsoon Snacks",
+                    image: "Monsoon_Comforts/Monsoon_Snacks.png",
+                    description: "Crispy snacks perfect for rainy day cravings"
+                },
+                {
+                    title: "Monsoon Curries",
+                    image: "Monsoon_Comforts/Monsonn_Curries.png",
+                    description: "Spicy curries to complement the monsoon mood"
+                },
+                {
+                    title: "Monsoon Drinks",
+                    image: "Monsoon_Comforts/Monsoon_Drinks.png",
+                    description: "Warming beverages for the rainy season"
+                },
+                {
+                    title: "Monsoon Desserts",
+                    image: "Monsoon_Comforts/Monsoon_Desserts.png",
+                    description: "Sweet treats to brighten up gloomy days"
+                }
+            ],
+            festive: [
+                {
+                    title: "Holiday Roast",
+                    image: "Festive_Vegan/Holiday_Roast.png",
+                    description: "Spectacular centerpiece dishes for special occasions"
+                },
+                {
+                    title: "Holiday Desserts",
+                    image: "Festive_Vegan/Holiday_Desserts.png",
+                    description: "Decadent desserts for festive celebrations"
+                },
+                {
+                    title: "Holiday Sides",
+                    image: "Festive_Vegan/Holiday_Sides.png",
+                    description: "Perfect accompaniments for holiday feasts"
+                },
+                {
+                    title: "Holiday Drinks",
+                    image: "Festive_Vegan/Holiday_Drinks.png",
+                    description: "Festive beverages to toast special moments"
+                }
+            ]
+        };
+
+        // Function to display recipes
+        function displayRecipes(category) {
+            const recipesGrid = document.getElementById('recipesGrid');
+            let recipesToShow = [];
+
+            if (category === 'all') {
+                // Show one recipe from each category
+                recipesToShow = [
+                    communityRecipes.summer[0],
+                    communityRecipes.winter[0],
+                    communityRecipes.monsoon[0],
+                    communityRecipes.festive[0]
+                ];
+            } else {
+                recipesToShow = communityRecipes[category] || [];
+            }
+
+            recipesGrid.innerHTML = recipesToShow.map(recipe => `
+                <div class="recipe-card">
+                    <img src="${recipe.image}" alt="${recipe.title}" class="recipe-image">
+                    <div class="recipe-info">
+                        <h3 class="recipe-title">${recipe.title}</h3>
+                        <p class="recipe-description">${recipe.description}</p>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Function to handle tab switching
+        function switchTab(category) {
+            // Update active tab
+            document.querySelectorAll('.tab-button').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.querySelector(`[data-category="${category}"]`).classList.add('active');
+
+            // Display recipes for selected category
+            displayRecipes(category);
+        }
+
+        // Event listeners for tabs
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize with "All" category
+            displayRecipes('all');
+
+            // Add click event listeners to tab buttons
+            document.querySelectorAll('.tab-button').forEach(button => {
+                button.addEventListener('click', function() {
+                    const category = this.getAttribute('data-category');
+                    switchTab(category);
+                });
+            });
+        });
+    </script>
 </body>
 </html>
